@@ -72,7 +72,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="mt-5">
                 <svg xmlns="http://www.w3.org/2000/svg" id="scroll" width="50" height="50" fill="white" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                     <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
@@ -87,62 +87,66 @@
                 <h2 class="text-white m-2 name">Projects</h2>
             </div>
 
-
-            <div class="row">
-                <div class="col-sm-8 px-0">
-                    <div class="card px-0 text-white" id="outerCard">
-                        <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column card-hover-bg rounded-0">
-                            <h5 class="card-title">Outer Cycles</h5>
-                            <button type="button" id="outerModalBtn" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#outerModal">View More</button>
+            <div class="col d-flex justify-content-center">
+                <div class="row projects-mr">
+                    <div class="col-sm-8 px-0">
+                        <div class="card px-0 text-white projects-m" id="outerCard">
+                            <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column card-hover-bg rounded-0">
+                                <h5 class="card-title">Outer Cycles</h5>
+                                <button type="button" id="outerModalBtn" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#outerModal">View More</button>
+                            </div>
+                            <img src="img/outer.jpg" class="img-fluid img-fill keep-aspect" alt="Outer Cycles Page Preview">
                         </div>
-                        <img src="img/outer.jpg" class="img-fluid img-fill keep-aspect" alt="Outer Cycles Page Preview">
+                    </div>
+
+                    <div class="col-sm-4 justify-content-sm-between px-0">
+                        <div class="card px-0 bg-transparent text-white projects-m">
+                            <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column card-hover-bg rounded-0">
+                                <h5 class="card-title">Audrey K</h5>
+                                <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#audreykModal">View More</button>
+                            </div>
+                            <img src="img/audreyk.jpg" class="img-fluid img-fill keep-aspect" alt="Audrey K Page Preview">
+                        </div>
+
+                        <div class="card px-0 bg-transparent text-white projects-m">
+                            <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column card-hover-bg rounded-0">
+                                <h5 class="card-title">Designs by Dani</h5>
+                                <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#daniModal">View More</button>
+                            </div>
+                            <img src="img/danidesigns.jpg" class="img-fluid img-fill keep-aspect" alt="Designs by Dani Page Preview">
+                        </div>
                     </div>
                 </div>
+                <div class="row projects-ml">
 
-                <div class="col-sm-4 justify-content-sm-between px-0">
-                    <div class="card px-0 bg-transparent text-white">
-                        <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column card-hover-bg rounded-0">
-                            <h5 class="card-title">Audrey K</h5>
-                            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#audreykModal">View More</button>
+                    <div class="col-sm-8 px-0">
+                        <div class="card px-0 bg-transparent text-white projects-m">
+                            <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column card-hover-bg rounded-0">
+                                <h5 class="card-title">Word Game</h5>
+                                <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#gameModal">View More</button>
+                            </div>
+                            <img src="img/game.jpg" class="img-fluid img-fill keep-aspect" alt="Outer Cycles">
                         </div>
-                        <img src="img/audreyk.jpg" class="img-fluid img-fill keep-aspect" alt="Audrey K Page Preview">
-                    </div>
-
-                    <div class="card px-0 bg-transparent text-white">
-                        <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column card-hover-bg rounded-0">
-                            <h5 class="card-title">Designs by Dani</h5>
-                            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#daniModal">View More</button>
-                        </div>
-                        <img src="img/danidesigns.jpg" class="img-fluid img-fill keep-aspect" alt="Designs by Dani Page Preview">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 px-0">
-                    <div class="card px-0 bg-transparent text-white">
-                        <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column card-hover-bg rounded-0">
-                            <h5 class="card-title">Awesome Startup Employee Directory</h5>
-                            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#employeeModal">View More</button>
-                        </div>
-                        <img src="img/employee-directory.jpg" class="img-fluid img-fill keep-aspect" alt="Outer Cycles">
                     </div>
 
-                    <div class="card px-0 bg-transparent text-white">
-                        <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column card-hover-bg rounded-0">
-                            <h5 class="card-title">Adrian Kritzinger Personal Profile</h5>
-                            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#adrianModal">View More</button>
+                    <div class="col-sm-4 px-0">
+                        <div class="card px-0 bg-transparent text-white projects-m">
+                            <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column card-hover-bg rounded-0">
+                                <h5 class="card-title">Awesome Startup Employee Directory</h5>
+                                <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#employeeModal">View More</button>
+                            </div>
+                            <img src="img/employee-directory.jpg" class="img-fluid img-fill keep-aspect" alt="Outer Cycles">
                         </div>
-                        <img src="img/adrian.jpg" class="img-fluid img-fill keep-aspect" alt="Outer Cycles">
-                    </div>
-                </div>
-                <div class="col-sm-8 px-0">
-                    <div class="card px-0 bg-transparent text-white">
-                        <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column card-hover-bg rounded-0">
-                            <h5 class="card-title">Word Game</h5>
-                            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#gameModal">View More</button>
+
+                        <div class="card px-0 bg-transparent text-white projects-m">
+                            <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column card-hover-bg rounded-0">
+                                <h5 class="card-title">Adrian Kritzinger Personal Profile</h5>
+                                <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#adrianModal">View More</button>
+                            </div>
+                            <img src="img/adrian.jpg" class="img-fluid img-fill keep-aspect" alt="Outer Cycles">
                         </div>
-                        <img src="img/game.jpg" class="img-fluid img-fill keep-aspect" alt="Outer Cycles">
                     </div>
+                    
                 </div>
             </div>
         </div>
